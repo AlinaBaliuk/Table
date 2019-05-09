@@ -1,0 +1,18 @@
+td:last-child{border-right: none;}
+tr:nth-child(odd) td{
+	border-right: 2px solid #fff;
+}
+tr:nth-child(even) td{
+	border-right: 2px solid #dee2e6;
+}
+.table_title th {
+	border-right: 2px solid #dee2e6;
+	text-align: center;
+	vertical-align: middle!important;
+}
+tbody tr:nth-child(odd) th{
+	border-right: 2px solid #fff;
+}
+tbody tr:nth-child(even) th{
+	border-right: 2px solid #dee2e6;
+}
